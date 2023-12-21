@@ -1,0 +1,22 @@
+{
+  "name": "trapiapi-js",
+  "version": "1.0.0",
+  "description": "The Trapi Hypixel API Third Party JS Wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrapiAPI/Javascript.git"
+  },
+  "keywords": [
+    "hypixel"
+  ],
+  "author": "TrapiAPI",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrapiAPI/Javascript/issues"
+  },
+  "homepage": "https://github.com/TrapiAPI/Javascript#readme"
+}
