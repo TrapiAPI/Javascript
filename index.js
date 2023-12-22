@@ -396,22 +396,3 @@ class Skyblock {
         }
     }
 }
-
-
-
-// Create an instance of the PlayerData class with your API key
-const playerData = new PlayerData('fdda10cb-49bc-44ff-9e0b-2e183dc2a289');
-
-const resources = new Resources('fdda10cb-49bc-44ff-9e0b-2e183dc2a289');
-
-const skyblock = new Skyblock('fdda10cb-49bc-44ff-9e0b-2e183dc2a289');
-
-// Example usage of getPlayer method
-skyblock.getFireSales()
-    .then(data => {
-        if (data) {
-            console.log('Player Data:', data);
-        } else {
-            console.log('Failed to fetch player data.');
-        }
-    });
